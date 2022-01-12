@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Testa amolar machado",
+      "price": "15.80"
+    },
+    {
+      "id": 3,
+      "name": "Marreta desempenar vidro",
+      "price": "10.90"
+    }
+  ]
+}
