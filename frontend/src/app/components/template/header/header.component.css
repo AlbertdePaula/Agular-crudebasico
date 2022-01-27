@@ -1,6 +1,8 @@
 .header {
     display: flex;
     align-items: center;
+    padding-left: 0;
+    background: #c9c9ce;   
 }
 
 .header a {
@@ -11,10 +13,11 @@
 
 .header .logo {
     max-height: 65px;
+    padding-left: 0;
 }
 
 .header .title-group {
-    padding-left: 25px;
+    padding-left: 20px;
 }
 
 .header .title-group a:visited {
