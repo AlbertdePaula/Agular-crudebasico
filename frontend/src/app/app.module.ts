@@ -16,6 +16,13 @@ import { HomeComponent } from './views/home/home.component';
 import { MatCardModule } from '@angular/material/card';
 
 import { AppRoutingModule } from './app-routing.module';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductsComponent } from './components/products/products.component';
+import { OrdersComponent } from './views/orders/orders.component';
+import { ScheduleComponent } from './views/schedule/schedule.component';
+import { CodeListComponent } from './views/code-list/code-list.component';
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +30,14 @@ import { AppRoutingModule } from './app-routing.module';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    ProductCrudComponent,
+    ProductsComponent,
+    OrdersComponent,
+    ScheduleComponent,
+    CodeListComponent,
+    RedDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,

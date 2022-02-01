@@ -14,6 +14,11 @@
 .header .logo {
     max-height: 65px;
     padding-left: 0;
+    cursor: pointer;
+}
+
+.header .logo ::selection {
+    margin: 30px;
 }
 
 .header .title-group {
@@ -27,3 +32,4 @@
 .header .title-group i{
     padding-right: 5px;
 }
+
