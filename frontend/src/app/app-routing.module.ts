@@ -6,6 +6,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { OrdersComponent } from './views/orders/orders.component';
 import { ScheduleComponent } from './views/schedule/schedule.component';
 import { CodeListComponent } from './views/code-list/code-list.component';
+import { OrderCreateComponent } from './components/order/order-create/order-create.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,9 @@ const routes: Routes = [
 },{
   path:"products",
   component: ProductCrudComponent
+},{
+  path:"order-create",
+  component: OrderCreateComponent
 },{
   path: "orders",
   component: OrdersComponent

@@ -9,12 +9,15 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 
+//Componetes Material Designe
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
-import { HomeComponent } from './views/home/home.component';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
+//Componentes do projeto
+import { HomeComponent } from './views/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductsComponent } from './components/products/products.component';
@@ -47,7 +50,8 @@ import { ForDirective } from './directives/for.directive';
     MatListModule,
     MatIconModule,
     MatCardModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
