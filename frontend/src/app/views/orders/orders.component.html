@@ -1,43 +1,66 @@
 <div class="container">
-    <mat-card class="order-card" tabindex="0" >
-        <mat-card-title>Ordens em andamento</mat-card-title>
-        <mat-card-subtitle>Te ajuda à realizar suas ordens</mat-card-subtitle>
+  <mat-grid-list cols="4" rowHeight="1:1">
+    <mat-grid-tile>
+      <mat-card routerLink="products">
+        <mat-card-title>Ordens qualitativas</mat-card-title>
+        <mat-card-subtitle>Ordens qualitativas em andamento</mat-card-subtitle>
         <mat-card-content>
-          
-          <img src="../../../assets/image/maintence-icon.png" alt="" routerLink="products">
-
-
+          <img mat-card-sm-image src="../../../assets/image/maintence-icon.png">
         </mat-card-content>
-
+        
       </mat-card>
-
-      <mat-card class="order-card">
-        <mat-card-title>Histórico</mat-card-title>
-        <mat-card-subtitle>Histórico de ordens realizadas</mat-card-subtitle>
-        <mat-card-content>
-          
-          
-        </mat-card-content>
-
+    </mat-grid-tile>
+  
+    <mat-grid-tile>
+      <mat-card>
+        <mat-card-title>Ordens preventivas</mat-card-title>
+        <mat-card-subtitle>Ordens preventivas em andamento</mat-card-subtitle>
+        <mat-card-content></mat-card-content>
       </mat-card>
-
-      <mat-card class="order-card">
-        <mat-card-title>Ordens em andamento</mat-card-title>
-        <mat-card-subtitle>Te ajuda à realizar suas ordens</mat-card-subtitle>
-        <mat-card-content>
-          
-          
-        </mat-card-content>
-
+    </mat-grid-tile>
+  
+    <mat-grid-tile>
+      <mat-card>
+        <mat-card-title>Ordens qualitativas</mat-card-title>
+        <mat-card-subtitle>Item ainda a ser definido</mat-card-subtitle>
+        <mat-card-content></mat-card-content>
       </mat-card>
+    </mat-grid-tile>
+  
+    <mat-grid-tile>
+      <mat-card>
+        <mat-card-title>Card exemplo</mat-card-title>
+        <mat-card-subtitle>Titulo do card exemplo</mat-card-subtitle>
+        <mat-card-content></mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  
+    <mat-grid-tile>
+      <mat-card>
+        <mat-card-title>Card exemplo</mat-card-title>
+        <mat-card-subtitle>Titulo do card exemplo</mat-card-subtitle>
+        <mat-card-content></mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  
+    <mat-grid-tile>
+      <mat-card>
+        <mat-card-title>Card exemplo</mat-card-title>
+        <mat-card-subtitle>Titulo do card exemplo</mat-card-subtitle>
+        <mat-card-content></mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  
+  </mat-grid-list>
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- <button mat-raised-button (click)="navigateToOrdersCreate()">
+      </button> -->
+  
 </div>
-
-
-
-
-
-
-
-
-<!-- <button mat-raised-button (click)="navigateToOrdersCreate()">
-    </button> -->

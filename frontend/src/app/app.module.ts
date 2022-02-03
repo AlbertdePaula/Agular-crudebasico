@@ -15,7 +15,6 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-
 //Componentes do projeto
 import { HomeComponent } from './views/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -24,8 +23,12 @@ import { ProductsComponent } from './components/products/products.component';
 import { OrdersComponent } from './views/orders/orders.component';
 import { ScheduleComponent } from './views/schedule/schedule.component';
 import { CodeListComponent } from './views/code-list/code-list.component';
+import {MatGridListModule} from '@angular/material/grid-list'; 
+
+//Exemplos das aulas
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -51,7 +54,8 @@ import { ForDirective } from './directives/for.directive';
     MatIconModule,
     MatCardModule,
     AppRoutingModule,
-    MatButtonModule
+    MatButtonModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
