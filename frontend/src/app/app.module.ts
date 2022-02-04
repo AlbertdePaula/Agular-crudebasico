@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
+import { AppRoutingModule } from './app-routing.module';
 
 //Componetes Material Designe
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -15,20 +16,20 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 //Componentes do projeto
 import { HomeComponent } from './views/home/home.component';
-import { AppRoutingModule } from './app-routing.module';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
-import { ProductsComponent } from './components/products/products.component';
 import { OrdersComponent } from './views/orders/orders.component';
 import { ScheduleComponent } from './views/schedule/schedule.component';
 import { CodeListComponent } from './views/code-list/code-list.component';
-import {MatGridListModule} from '@angular/material/grid-list'; 
+import { OrderCreateComponent } from './components/order/order-create/order-create.component';
 
 //Exemplos das aulas
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
-import { from } from 'rxjs';
+import { ProductsCreateComponent } from './components/products/products-create/products-create.component';
 
 @NgModule({
   declarations: [
@@ -38,12 +39,13 @@ import { from } from 'rxjs';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductsComponent,
     OrdersComponent,
     ScheduleComponent,
     CodeListComponent,
     RedDirective,
-    ForDirective
+    ForDirective,
+    OrderCreateComponent,
+    ProductsCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -55,7 +57,8 @@ import { from } from 'rxjs';
     MatCardModule,
     AppRoutingModule,
     MatButtonModule,
-    MatGridListModule
+    MatGridListModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,21 +1,27 @@
+
+<!-- <button mat-raised-button (click)="navigateToOrdersCreate()">Navegar</button> -->
+
+
 <div class="container">
   <mat-grid-list cols="4" rowHeight="1:1">
     <mat-grid-tile>
-      <mat-card routerLink="products">
-        <mat-card-title>Ordens qualitativas</mat-card-title>
-        <mat-card-subtitle>Ordens qualitativas em andamento</mat-card-subtitle>
+      <mat-card>
+        <mat-card-title>Ordens em andamento</mat-card-title>
+        <mat-card-subtitle>Ordens em andamento</mat-card-subtitle>
         <mat-card-content>
-          <img mat-card-sm-image src="../../../assets/image/maintence-icon.png">
+          <img mat-card-sm-image src="../../../assets/image/maintence-icon.png">     
         </mat-card-content>
         
       </mat-card>
     </mat-grid-tile>
   
     <mat-grid-tile>
-      <mat-card>
-        <mat-card-title>Ordens preventivas</mat-card-title>
-        <mat-card-subtitle>Ordens preventivas em andamento</mat-card-subtitle>
-        <mat-card-content></mat-card-content>
+      <mat-card  (click)="navigateToOrdersCreate()">
+        <mat-card-title>Inserir ordem</mat-card-title>
+        <mat-card-subtitle>Inserir um novo equipamento a ser inspecionado</mat-card-subtitle>
+        <mat-card-content>
+          <img mat-card-sm-image src="">
+        </mat-card-content>
       </mat-card>
     </mat-grid-tile>
   
@@ -23,7 +29,9 @@
       <mat-card>
         <mat-card-title>Ordens qualitativas</mat-card-title>
         <mat-card-subtitle>Item ainda a ser definido</mat-card-subtitle>
-        <mat-card-content></mat-card-content>
+        <mat-card-content>
+          <img mat-card-sm-image src="">
+        </mat-card-content>
       </mat-card>
     </mat-grid-tile>
   
@@ -31,7 +39,19 @@
       <mat-card>
         <mat-card-title>Card exemplo</mat-card-title>
         <mat-card-subtitle>Titulo do card exemplo</mat-card-subtitle>
-        <mat-card-content></mat-card-content>
+        <mat-card-content>
+          <img mat-card-sm-image src="">
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  
+    <mat-grid-tile>
+      <mat-card (click)="navigateToProductCreate()">
+        <mat-card-title>Produtos</mat-card-title>
+        <mat-card-subtitle>Titulo do card exemplo</mat-card-subtitle>
+        <mat-card-content>
+          <img mat-card-sm-image src="">
+        </mat-card-content>
       </mat-card>
     </mat-grid-tile>
   
@@ -39,28 +59,11 @@
       <mat-card>
         <mat-card-title>Card exemplo</mat-card-title>
         <mat-card-subtitle>Titulo do card exemplo</mat-card-subtitle>
-        <mat-card-content></mat-card-content>
+        <mat-card-content>
+          <img mat-card-sm-image src="">
+        </mat-card-content>
       </mat-card>
     </mat-grid-tile>
   
-    <mat-grid-tile>
-      <mat-card>
-        <mat-card-title>Card exemplo</mat-card-title>
-        <mat-card-subtitle>Titulo do card exemplo</mat-card-subtitle>
-        <mat-card-content></mat-card-content>
-      </mat-card>
-    </mat-grid-tile>
-  
-  </mat-grid-list>
-  
-  
-  
-  
-  
-  
-  
-  
-  <!-- <button mat-raised-button (click)="navigateToOrdersCreate()">
-      </button> -->
-  
+  </mat-grid-list>  
 </div>

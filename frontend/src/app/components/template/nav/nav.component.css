@@ -1,7 +1,7 @@
 .sidenav {
     background: #32408f;
-    width: 200px;
-    padding: 16px;
+    width: 15rem;
+    padding: 1rem;
 }
 
 .sidenav a {
@@ -9,10 +9,10 @@
 }
 
 .sidenav i {
-    padding-right: 10px;
+    padding-right: 0.8rem;
 }
 
 .content {
-    padding: 16px;
+    padding: 1rem;
     background: #fff;
 }
