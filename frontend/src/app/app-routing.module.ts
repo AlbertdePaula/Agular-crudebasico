@@ -7,7 +7,7 @@ import { OrderCreateComponent } from './components/order/order-create/order-crea
 import { OrdersComponent } from './views/orders/orders.component';
 import { ScheduleComponent } from './views/schedule/schedule.component';
 import { CodeListComponent } from './views/code-list/code-list.component';
-import { ProductsCreateComponent } from './components/products/products-create/products-create.component';
+import { ProductsCreateComponent } from './components/products/product-create/products-create.component';
 
 const routes: Routes = [
   {
