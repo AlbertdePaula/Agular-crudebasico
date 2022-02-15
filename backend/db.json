@@ -26,7 +26,7 @@
       "id": 5
     },
     {
-      "name": "",
+      "name": "Chinelo",
       "price": 0,
       "id": 6
     },
@@ -36,7 +36,7 @@
       "id": 7
     },
     {
-      "name": "",
+      "name": "Calango",
       "price": 0,
       "id": 8
     },
@@ -49,6 +49,36 @@
       "name": "Galão da massa",
       "price": "00",
       "id": 10
+    },
+    {
+      "name": "Vaca",
+      "price": 0,
+      "id": 11
+    },
+    {
+      "name": "Galinha",
+      "price": 0,
+      "id": 12
+    },
+    {
+      "name": "Jabiraca",
+      "price": 0,
+      "id": 13
+    },
+    {
+      "name": "Nego Drama",
+      "price": "035",
+      "id": 14
+    },
+    {
+      "name": "Janaina ",
+      "price": "55",
+      "id": 15
+    },
+    {
+      "id": 45,
+      "name": "Bujão",
+      "price": "44"
     }
   ]
 }
