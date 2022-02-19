@@ -20,7 +20,7 @@ export class ProductsCreateComponent implements OnInit {
   ngOnInit(): void {
     
   }
-  creteProdutc(): void {
+  createProduct(): void {
     this.productService.create(this.product).subscribe (() =>{
       this.productService.showMessage('Produto inserido!')
       this.router.navigate(['/products'])

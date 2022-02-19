@@ -37,11 +37,12 @@ import { ForDirective } from './directives/for.directive';
 import { ProductsCreateComponent } from './components/products/product-create/products-create.component';
 import { FormsModule } from '@angular/forms';
 import { ProductReadComponent } from './components/products/product-read/product-read.component';
-import { ProductRead2Component } from './components/products/product-read2/product-read2.component';
+//import { ProductRead2Component } from './components/products/product-read2/product-read2.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { from } from 'rxjs';
+import { ProductUpdateComponent } from './components/products/product-update/product-update.component';
 
 registerLocaleData(localePt);
 
@@ -61,7 +62,8 @@ registerLocaleData(localePt);
     OrderCreateComponent,
     ProductsCreateComponent,
     ProductReadComponent,
-    ProductRead2Component
+    //ProductRead2Component,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
