@@ -43,6 +43,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { from } from 'rxjs';
 import { ProductUpdateComponent } from './components/products/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/products/product-delete/product-delete.component';
 
 registerLocaleData(localePt);
 
@@ -63,7 +64,8 @@ registerLocaleData(localePt);
     ProductsCreateComponent,
     ProductReadComponent,
     //ProductRead2Component,
-    ProductUpdateComponent
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,

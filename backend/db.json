@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Caneta",
-      "price": 5.89
+      "price": "3.30"
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
     },
     {
       "id": 4,
-      "name": "serrote de calango",
+      "name": "Serrote de calango",
       "price": "15.00"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Chinelo",
-      "price": 0,
+      "price": "0189.90",
       "id": 6
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "Calango",
-      "price": 0,
+      "price": "35",
       "id": 8
     },
     {
@@ -46,24 +46,9 @@
       "id": 9
     },
     {
-      "name": "Galão da massa",
-      "price": "00",
-      "id": 10
-    },
-    {
-      "name": "Vaca",
-      "price": 0,
-      "id": 11
-    },
-    {
       "name": "Galinha",
       "price": 0,
       "id": 12
-    },
-    {
-      "name": "Jabiraca",
-      "price": 0,
-      "id": 13
     },
     {
       "name": "Nego Drama",
@@ -79,6 +64,16 @@
       "id": 45,
       "name": "Bujão",
       "price": "44"
+    },
+    {
+      "name": "Gigabyte",
+      "price": "33",
+      "id": 46
+    },
+    {
+      "name": "Vaca negra",
+      "price": "55",
+      "id": 47
     }
   ]
 }

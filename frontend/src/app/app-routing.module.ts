@@ -9,6 +9,7 @@ import { OrdersComponent } from './views/orders/orders.component';
 import { ScheduleComponent } from './views/schedule/schedule.component';
 import { CodeListComponent } from './views/code-list/code-list.component';
 import { ProductsCreateComponent } from './components/products/product-create/products-create.component';
+import { ProductDeleteComponent } from './components/products/product-delete/product-delete.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,9 @@ const routes: Routes = [
 },{
   path: "products/update/:id",
   component: ProductUpdateComponent
+},{
+  path: "products/delete/:id",
+  component: ProductDeleteComponent
 }
 ];
 
